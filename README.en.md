@@ -10,6 +10,8 @@
 
 An addon for [BCases](https://github.com/By1337/BCases): a 3×3×3 Rubik's cube appears above the case and solves itself.
 
+https://github.com/user-attachments/assets/a96428cb-94e8-4213-95d5-bef07db20eeb
+
 1. The pieces fly in and snap together into a solved cube.
 2. The cube spins in the air and scrambles itself. Every layer turn is fully animated.
 3. Then it solves itself back. The last few turns are slower.
