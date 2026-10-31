@@ -1,0 +1,51 @@
+name: Ошибка / Bug report
+description: Что-то работает не так / Something does not work
+labels: [ bug ]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось / What happened
+      description: Что вы делали и что пошло не так / What you did and what went wrong
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: Версия сервера / Server version
+      placeholder: Paper 1.21.11
+    validations:
+      required: true
+  - type: input
+    id: bcases
+    attributes:
+      label: Версия BCases / BCases version
+      placeholder: "1.2"
+    validations:
+      required: true
+  - type: input
+    id: virtualentityapi
+    attributes:
+      label: Версия VirtualEntityApi / VirtualEntityApi version
+      placeholder: "1.5"
+    validations:
+      required: true
+  - type: input
+    id: addon
+    attributes:
+      label: Версия аддона / Addon version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Лог сервера / Server log
+      description: Ошибки из консоли, если есть / Console errors, if any
+      render: text
+  - type: textarea
+    id: config
+    attributes:
+      label: rubik.yml
+      description: Если меняли настройки / If you changed the settings
+      render: yaml

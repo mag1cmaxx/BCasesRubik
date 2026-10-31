@@ -1,0 +1,26 @@
+provider: mag1cmax:rubik
+id: rubik
+
+# 20 тиков = 1 секунда. Любой параметр можно удалить, возьмётся значение по умолчанию
+settings:
+  height: 2.3 # на какой высоте над низом блока кейса висит центр кубика
+  size: 0.45 # размер одной детали кубика в блоках
+  spin: 3.0 # на сколько градусов за тик поворачивается весь кубик
+  tilt: 30 # наклон кубика, чтобы было видно верхнюю грань
+  scramble:
+    moves: 20 # сколько поворотов сделать при перемешивании
+    ticks: 2 # тиков на один поворот
+  solve:
+    ticks: 4 # тиков на один поворот при сборке
+    final_ticks: 10 # последние повороты медленнее, для напряжения
+    final_moves: 3
+  show_ticks: 80 # сколько тиков показывать приз
+  # Блоки граней, подойдёт любой блок
+  colors:
+    up: white_concrete
+    down: yellow_concrete
+    front: lime_concrete
+    back: blue_concrete
+    right: red_concrete
+    left: orange_concrete
+    core: black_concrete

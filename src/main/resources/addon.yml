@@ -1,0 +1,4 @@
+name: Rubik
+version: '${project.version}'
+main: dev.winproject.rubik.RubikAddon
+author: Mag1cMax
